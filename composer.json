@@ -1,0 +1,21 @@
+{
+    "name": "hsucy/validation",
+    "description": "userd for validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hsucy",
+            "email": "xusasuke6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+          "Hsucy\\Validation\\": "src/"
+        }
+    }
+}

@@ -18,7 +18,19 @@ class Validate extends ValidationObject
 
     //validation path
     protected $validators = [
-        'integer' => '\App\Validation\IntegerValidation',
+        'alphaNumeric' => '\App\Validation\AlphaNumericValidation',
+        'alpha'        => '\App\Validation\AlphaValidation',
+        'callBack'     => '\App\Validation\CallBackValidation',
+        'compare'      => '\App\Validation\CompareValidation',
+        'date'         => '\App\Validation\DateValidation',
+        'double'       => '\App\Validation\DoubleValidation',
+        'email'        => '\App\Validation\EmailValidation',
+        'integer'      => '\App\Validation\IntegerValidation',
+        'match'        => '\App\Validation\MatchValidation',
+        'phone'        => '\App\Validation\PhoneValidation',
+        'range'        => '\App\Validation\RangeValidation',
+        'string'       => '\App\Validation\StringValidation',
+        'url'          => '\App\Validation\UrlValidation',
 
     ];
 

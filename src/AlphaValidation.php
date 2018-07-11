@@ -22,7 +22,7 @@ class AlphaValidation extends BaseValidation
 
             $defaultMessage = "{$this->attribute}只能为字母.";
             $this->setError(__FUNCTION__, $defaultMessage);
- 
+
             return false;
         }
         return true;
